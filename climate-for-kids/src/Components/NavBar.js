@@ -10,6 +10,7 @@ export default function NavBar() {
                 <ul>
                     <li>
                         <Link to="/">Home</Link>
+                        <Link to="/Game3">Game3</Link>
                     </li>
                 </ul>
             </aside>

@@ -6,6 +6,7 @@ export default function Home() {
             <ul>
                 <li>
                     <Link to="/"></Link>
+                    <Link to="/Game3"></Link>
                 </li>
             </ul>
         </nav>
