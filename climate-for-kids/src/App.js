@@ -5,7 +5,7 @@ import './App.css';
 import NavBar from './Components/NavBar';
 import Home from "./Components/Home";
 import About from "./Components/About";
-import Articles from "./Components/Articles";
+import Articles from "./Components/Game2";
 
 function App() {
   return (
