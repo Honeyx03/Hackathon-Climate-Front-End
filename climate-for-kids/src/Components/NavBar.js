@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
+import logo from "../logo.png";
+import  "../CSS/navBar.css";
 
 export default function NavBar() {
     return (
-        <header>
+        <nav>
             <div className="logo">
-                <h1></h1>
+                <img src={logo} alt="logo" />
             </div>
             <aside className="tabs">
                 <ul>
@@ -12,11 +14,19 @@ export default function NavBar() {
                         <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/game1">Game 1</Link>
+                        <Link to="/about">About</Link>
                     </li>
-                   
+                    <li>
+                        <Link to="/game1">Memory Card Game</Link>
+                    </li>
+                    <li>
+                        <Link to="/game2">Ocean Invaders</Link>
+                    </li>
+                    <li>
+                        <Link to="/game3">Remove The Trash</Link>
+                    </li>
                 </ul>
             </aside>
-        </header>
+        </nav>
     )
 }
