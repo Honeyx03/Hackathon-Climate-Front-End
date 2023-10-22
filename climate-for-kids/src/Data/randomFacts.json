@@ -1,0 +1,32 @@
+[
+   {
+        "title": "Global Temperature Is Rising",
+        "fact": "The planet's average surface temperature has risen about 2 degrees Fahrenheit (1 degrees Celsius) since the late 19th century, a change driven largely by increased carbon dioxide emissions into the atmosphere and other human activities",
+        "image": "/Images/sunTemp.jpeg"
+   },
+   {
+        "title": "The Ocean Is Getting Warmer",
+        "fact": "The ocean has absorbed more heat from the increase in temperatures causing the ocean waters to be much warmer in the recent years. This negatively impacts ocean life.",
+        "image": "/Images/coral_reef.jpeg"
+    },
+    {
+        "title": "The Ice Sheets Are Shrinking",
+        "fact": "The Greenland and Antarctic ice sheets are melting and have decreased in mass due to increase in temperature.",
+        "image": "/Images/ice-sheets.jpeg"
+   },
+   {
+        "title": "Glaciers Are Retreating",
+        "fact": "Glaciers are retreating almost everywhere around the world — including in the Alps, Himalayas, Andes, Rockies, Alaska, and Africa.",
+        "image": "/Images/glaciers.jpeg"
+    },
+    {
+        "title": "Sea Level Is Rising",
+        "fact": "Global sea level rose about 8 inches (20 centimeters) in the last century. The rate in the last two decades, however, is nearly double that of the last century and accelerating slightly every year.",
+        "image": "/Images/sea-level.jpeg"
+    },
+    {
+        "title": "Extreme Weather Events Are Increasing in Frequency",
+        "fact": "extreme precipitation, droughts and forest fires have become more frequent and severe as a result of climate change.",
+        "image": "/Images/forest-fire.jpeg"
+    }
+]
