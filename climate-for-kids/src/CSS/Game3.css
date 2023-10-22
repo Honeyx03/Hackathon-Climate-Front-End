@@ -1,0 +1,183 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ol, ul{
+	list-style: none;
+}
+
+ol, ul, li, div, p{
+  margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+/* * {
+  outline: 1px solid #000
+} */
+
+.game3 {
+  text-align: center;
+  background-color: rgba(121, 84, 8, 0.765);
+  padding-bottom: 100px;
+}
+
+.game3 .board {
+  width: 600px;
+  height: 600px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  background: url("../Images/soil.png");
+  background-size: cover;
+  border: 3px solid white;
+  border-radius: 25px;
+}
+
+.game3 .board div {
+  width: 200px;
+  height: 200px;
+  background-image: url("../Images/pipe.png");
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.game3 .board div img {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  bottom: -100px;
+  left: 20%;
+  transform: translateX(-50%);
+  transform: translateY(-70%);
+  transition: all 0.5s;
+
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.game3 .board div > img {
+  bottom: 0;
+}
+
+.game3 .rewards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+.game3 .rewards h3 {
+  width: 100%;
+  text-align: center;
+}
+
+.game3 .rewards ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .game3 .rewards li {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.game3 .rewards img {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 10px;
+} */
+
+.game3 .rewards li {
+    margin: 10px;
+}
+
+.game3 .rewards img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.game3 .game-over-section {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: rgba(255, 255, 0, 0.1); 
+}
+
+.game3 .game-over-section img {
+  max-width: 10%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+
+.context {
+  display: flex;
+}
+
+.context-column{
+  display: flex;
+  justify-content: space-between;
+}
+
+.context-container {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.context-text {
+  width: 46%;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-sm {
+  font-size: 14px;
+}
+
+.text-md {
+  font-size: 18px;
+}
+
+.title {
+  font-size: 16;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #36a742;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.list-width { 
+  width: 32%;
+}
+
+ul, li{
+  margin-bottom: 14px;
+}
+
+.earn-list {
+  display: flex;
+  justify-content: space-between;
+}
