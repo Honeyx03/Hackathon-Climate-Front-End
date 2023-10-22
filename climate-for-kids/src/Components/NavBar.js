@@ -12,6 +12,10 @@ export default function NavBar() {
                         <Link to="/">Home</Link>
                         <Link to="/Game3">Game3</Link>
                     </li>
+                    <li>
+                        <Link to="/game1">Game 1</Link>
+                    </li>
+                   
                 </ul>
             </aside>
         </header>

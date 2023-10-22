@@ -1,0 +1,11 @@
+body {
+  background-color: pink;
+}
+.cards {
+    position: relative;
+    height: auto;
+    width: 100px;
+}
+img {
+  width: 100%;
+}
