@@ -1,0 +1,38 @@
+[
+    {
+        "image": "/Images/car-pollution.jpeg",
+        "name": "car pollution"
+    },
+    {
+        "image": "/Images/deforestation.jpeg",
+        "name": "deforestation"
+    },
+    {
+        "image": "/Images/fossil-fuel.jpeg",
+        "name": "fossil fuel"
+    },
+    {
+        "image": "/Images/glacier-melting.jpeg",
+        "name": "melting glacier"
+    },
+    {
+        "image": "/Images/plastic-pollution.jpeg",
+        "name": "plastic pollution"
+    },
+    {
+        "image": "/Images/polluted-ocean.jpeg",
+        "name": "polluted ocean"
+    },
+    {
+        "image": "/Images/recycling.jpeg",
+        "name": "recycling"
+    },
+    {
+        "image": "/Images/trash.jpeg",
+        "name": "trash"
+    },
+    {
+        "image": "/Images/save-the-planet.jpeg",
+        "name": "save the planet"
+    }
+]
